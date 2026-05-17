@@ -20,8 +20,7 @@ export default function Navigation() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="#" className="flex items-center gap-2 font-bold text-xl text-foreground hover:text-accent transition-colors">
-            <div className="w-2 h-2 rounded-full bg-accent" />
-            Portfolio
+            Danov's Portfolio
           </Link>
 
           {/* Desktop Navigation */}

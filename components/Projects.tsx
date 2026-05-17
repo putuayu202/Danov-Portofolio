@@ -62,8 +62,10 @@ export default function Projects() {
         'Integrated enterprise systems with SAP and centralized services',
       ],
 
+      myRole : 'Served as Project Leader responsible for leading the internal development team based on RSR documents prepared by Business Analysts and project requesters. Designed the application architecture using Laravel with Service Repository Architecture and Microservices Architecture to improve scalability, maintainability, and collaboration efficiency between services and developers. Managed all SAP integration activities including CR documentation, API contracts, integration coordination, and UAT processes. Also led User Acceptance Testing by preparing scenario cases, handling discussions with users, creating UAT documentation, monitoring deployments, managing database migrations (DDL & DML), and overseeing post-production activities including user training and socialization sessions.',
+
       impact:
-        'Used by more than 12,000 technicians across 32 service areas and 451 warehouses while helping improve material usage transparency and operational efficiency.',
+        'Used by more than 12,000 technicians across 32 service areas and 451 warehouses, helping simplify material reservation and usage processes while ensuring accurate WBS allocation for every transaction, reducing fraud and inappropriate material cost usage. The system also contributed to reducing recurring WBS misuse by approximately 5% through better validation and operational monitoring.',
     },
 
     {
@@ -116,15 +118,17 @@ export default function Projects() {
         'Designed stable operational monitoring for nationwide expedition activities',
       ],
 
+      myRole : 'Acted as Project Leader for the Vendor Developer team, responsible for leading technical development and coordinating project changes using Scrum methodology. Collaborated with Business Analysts who handled documentation and business requirements, while focusing on development execution, sprint direction, and technical decision-making. Also handled test case preparation, deployment monitoring, database migration activities (DDL & DML), and post-production support including training and user socialization.',
+
       impact:
         'Supported 16 expedition partners and helped process more than 2,000 expedition billings across operational regions.',
     },
 
     {
-      title: 'Invoice Online PSB',
+      title: 'Invoice Online PSB (Pasang Sambung Baru)',
       company: 'PT. Telkom Akses',
       description:
-        'Digital invoicing and documentation system for New Installation Service Partners with fully integrated workflows from assignment letters to invoicing.',
+        'Accelerated expedition partner payment processes, simplified Head Office operational monitoring, and enabled centralized evaluation recaps based on historical expedition project performance for better partner quality assessment.',
 
       tags: [
         'CodeIgniter 2',
@@ -142,7 +146,7 @@ export default function Projects() {
       },
 
       overview:
-        'Created a fully digitalized invoicing ecosystem for installation service partners with automated workflows, digital documentation, and external integrations.',
+        'Created a fully digitalized invoicing ecosystem for installation service (Pasang Sambung Baru Jaringan) partners with automated workflows, digital documentation, and external integrations.',
 
       problem:
         'Invoice processing and document verification were heavily manual, time-consuming, and difficult to track operationally.',
@@ -174,15 +178,17 @@ export default function Projects() {
         'Handled large-scale invoice transactions with high operational dependency',
       ],
 
+      myRole : 'Worked as Developer for 3 core submodules: Surat Penetapan, Rekonsiliasi Material, and Invoicing. Responsible for developing operational workflows, maintaining system stability, and managing Privy integration processes for digital signature implementation and paperless documentation workflows.',
+      
       impact:
-        'Supported 211 installation partners and successfully processed more than 13,000 invoice transactions through fully digitalized operational flows.',
+        'Reduced the monthly process from Assignment Letter (Surat Penetapan) to invoicing from 1–2 weeks into approximately 4 working days through paperless workflows and digital signature integration using Privy, while supporting more than 13,000 invoice transactions and 211 installation (Pasang Sambung Baru Jaringan) partners.',
     },
 
     {
       title: 'e-Pilammas',
-      company: 'Kementerian Pendidikan Banyumas',
+      company: 'Kementerian Agama Banyumas',
       description:
-        'Personnel and salary recap system for honorary teachers, PPPK, and civil servants used for salary processing, incentives, and recommendation documentation.',
+        'Personnel and salary recap system for honorary teachers, PPPK, and civil servants (PNS) used for salary processing, incentives, and recommendation documentation.',
 
       tags: [
         'Laravel',
@@ -202,7 +208,7 @@ export default function Projects() {
         'Developed a centralized education personnel recap system to simplify salary management and recommendation administration processes.',
 
       problem:
-        'Personnel data and salary recapitulation were difficult to manage manually across multiple employment categories.',
+        'Approval List based on regional area',
 
       solution:
         'Created a digital platform for centralized personnel recap, salary support, and recommendation administration.',
@@ -227,6 +233,8 @@ export default function Projects() {
         'Maintained data consistency for payroll and recommendation processing',
         'Simplified complex administrative workflows into one platform',
       ],
+
+      myRole : 'Handled the project as Fullstack Developer and DevOps Engineer, responsible for end-to-end application development using CodeIgniter including backend, frontend, database structure, deployment management, hosting configuration, and domain management.',
 
       impact:
         'Improved administrative efficiency and simplified personnel recap processes for educational operational teams.',
@@ -281,8 +289,10 @@ export default function Projects() {
         'Handled operational data consistency across multiple modules',
       ],
 
+      myRole : 'Served as Developer for all major submodules including Warning Letter, Remaining Capability, Work Clustering, and Contract Management. Responsible for feature development, system improvements, bug fixing, and maintaining application stability during both pre-production and post-production phases.',
+
       impact:
-        'Helped improve operational governance and monitoring for supplier collaboration processes.',
+        'Helped Procurement units evaluate supplier contract continuation eligibility while improving contract documentation organization and operational governance for supplier partnership management.',
     },
 
     {
@@ -331,9 +341,11 @@ export default function Projects() {
 
       challenges: [
         'Learned scalable backend architecture during internship environment',
-        'Handled API service integration and storage management',
+        'implementation MinIO for S3 and Mocha For Unit Testing',
         'Improved debugging and backend tracing capabilities',
       ],
+
+      myRole : 'Worked as Backend Engineer Intern supporting mentor-led development processes including supplier creation workflows, MinIO implementation for object storage management, and unit testing development using Mocha to improve backend reliability and testing coverage.',
 
       impact:
         'Supported development of Telkom Indonesia digital distribution ecosystem for operational supply chain management.',

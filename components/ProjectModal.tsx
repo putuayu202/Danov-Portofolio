@@ -19,6 +19,7 @@ interface ProjectModalProps {
     challenges: string[]
     impact: string
     image: string
+    myRole: string
   }
 }
 
@@ -147,6 +148,15 @@ export default function ProjectModal({ isOpen, onClose, project }: ProjectModalP
                 </li>
               ))}
             </ul>
+          </div>
+
+          {/* My Rolel */}
+          <div className="space-y-3 p-6 bg-accent/11 rounded-xl border border-accent/20">
+            <h3 className="text-lg font-semibold text-foreground flex items-center gap-2">
+              <span className="w-2 h-2 bg-accent rounded-full" />
+              My Role
+            </h3>
+            <p className="text-foreground/70 leading-relaxed">{project.myRole}</p>
           </div>
 
           {/* Business Impact */}
