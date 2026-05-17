@@ -22,10 +22,10 @@ export default function Contact() {
         <div className="inline-flex items-center gap-3 px-6 py-3 bg-card border border-border rounded-lg mb-16 hover:shadow-lg transition-shadow">
           <Mail className="text-accent" size={20} />
           <Link
-            href="mailto:hello@example.com"
+            href="mailto:dwikydanov39@gmail.com"
             className="text-foreground hover:text-accent transition-colors font-medium"
           >
-            hello@example.com
+            dwikydanov39@gmail.com
           </Link>
         </div>
 
